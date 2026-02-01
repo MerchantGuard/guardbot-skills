@@ -1,0 +1,47 @@
+{
+  "name": "@guardbot/skills",
+  "version": "1.0.0",
+  "description": "Compliance passports for AI agents - OpenClaw skill for GuardBot verification",
+  "main": "dist/index.js",
+  "bin": {
+    "guardbot": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "openclaw",
+    "mcp",
+    "ai-agents",
+    "compliance",
+    "verification",
+    "guardbot",
+    "moltbook",
+    "usdc",
+    "payments"
+  ],
+  "author": "MerchantGuard <hello@merchantguard.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MerchantGuard/guardbot-skills.git"
+  },
+  "homepage": "https://merchantguard.ai/guardbot",
+  "bugs": {
+    "url": "https://github.com/MerchantGuard/guardbot-skills/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
